@@ -7,7 +7,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 object ApiClient {
 
         var retrofit = Retrofit.Builder()
-            .baseUrl("<your base url goes here>")
+            .baseUrl("http://13.244.243.129/photos")
             .addConverterFactory(GsonConverterFactory.create())
             .build()
     }
